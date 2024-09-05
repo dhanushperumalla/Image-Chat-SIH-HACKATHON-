@@ -54,7 +54,7 @@ const ImageChat = () => {
       setTimeout(() => {
         const systemResponse = {
           id: messages.length + 2,
-          text: "Thank you for your message. How else can I assist you today?",
+          text: "Hi there! Thank you for your question. My app is currently under development, and I am unable to provide detailed responses at this time. Please check back soon for updates!🙂",
           sender: "system",
           timestamp: new Date(),
         };
